@@ -46,7 +46,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <application android:label="@string/settings_label" android:icon="@drawable/ic_launcher_settings" android:taskAffinity="">
         <uses-library android:name="touchwiz" />
-        <activity android:label="@string/settings_label_launcher" android:name="Settings" android:taskAffinity="com.android.settings" android:clearTaskOnLaunch="true" android:launchMode="singleTop">
+        <activity android:theme="@style/Switch" android:label="@string/settings_label_launcher" android:name="Settings" android:taskAffinity="com.android.settings" android:clearTaskOnLaunch="true" android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.settings.SETTINGS" />
